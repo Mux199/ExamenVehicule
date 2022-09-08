@@ -34,8 +34,3 @@ def create_client(clients_liste:Client):
     db.jeux.insert_one(clients_liste.dict())
     return clients_liste.dict()
 
-@app.delete("/client")
-def delete_client(nom:str):
-    db = database()
-    if db.client.delete_one({"nom":nom})
-

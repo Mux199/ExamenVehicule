@@ -20,7 +20,7 @@ class Client:
     def controle_immatriculation(self,value):
         #"verifier l'immatriculation
         if not re.Match("^[012345689{4}([VDR]|([0-9]|10){2})[A-Za-z]{1,2}[0-9]{1}(UV|LB"):
-            if not re.match()
-            raise ValueError('immatriculation invalide')
+            if not re.match("^[012345689]{4}((T|CO|CA)|([0-9]|10){2})[A-Za-z]{1,2}[0-9]{1}(UV|LB)"):
+                raise ValueError('immatriculation invalide')
         return value
 
