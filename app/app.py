@@ -1,8 +1,6 @@
-from Client import Client
-
 from fastapi import FastAPI, HTTPException
-from Client import Client
-from db import database
+from app.Client import Client
+from app.db import database
 
 
 app = FastAPI()

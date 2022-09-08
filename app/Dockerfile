@@ -5,7 +5,7 @@ RUN pip install uvicorn
 RUN pip install pymongo
 RUN pip install requests
 
-COPY . .
+COPY .. .
 
 EXPOSE 3000
 

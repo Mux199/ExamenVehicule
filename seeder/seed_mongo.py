@@ -3,7 +3,7 @@
 
 from pymongo import MongoClient
 
-from Client import Client
+from app.app import Client
 
 
 class MongoSeeder:
